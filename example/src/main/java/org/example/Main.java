@@ -14,5 +14,7 @@ public class Main {
         kevinProfile.increaseExpectedYearOfGraduation();
 
         System.out.println(kevinProfile.expectedYearOfGraduation);
+
+        System.out.println(alexProfile.expectedYearOfGraduation);
     }
 }
