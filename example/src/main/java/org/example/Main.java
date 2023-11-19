@@ -6,5 +6,13 @@ public class Main {
 
         String name = "Artem";
         System.out.println(name.charAt(0)); //'A'
+
+        Profile kevinProfile = new Profile("Kevin", "Smith", 2028, 4.0, "Science");
+
+        Profile alexProfile = new Profile("Alex", "Domi", 2026, 3.5, "Engineering");
+
+        kevinProfile.increaseExpectedYearOfGraduation();
+
+        System.out.println(kevinProfile.expectedYearOfGraduation);
     }
 }
